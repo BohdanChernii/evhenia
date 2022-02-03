@@ -1,0 +1,72 @@
+.calendar {
+  padding: 18px 14px 19px 14px;
+  .react-calendar {
+    &__navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px 5px 18px 5px;
+      &__label {
+        border: none;
+        background: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+      }
+
+      &__arrow {
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        background: #8d97b0;
+        border: none;
+        color: #fff;
+        border-radius: 8px;
+      }
+      &__next2-button {
+        display: none;
+      }
+      &__prev2-button {
+        display: none;
+      }
+    }
+    &__month-view__weekdays {
+      margin-bottom: 19px;
+      &__weekday {
+        text-align: center;
+        abbr {
+          text-decoration: none;
+          color: #6d7895;
+          font-size: 12px;
+        }
+      }
+    }
+
+    &__tile {
+      border: none;
+      padding: 0;
+      width: 32px;
+      height: 32px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      abbr {
+        color: #303842;
+        font-weight: 600;
+        font-size: 12px;
+      }
+      &--active {
+        abbr {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 32px;
+          height: 32px;
+          background: #dcdefc;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}

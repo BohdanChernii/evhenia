@@ -1,0 +1,57 @@
+.sideBar {
+  width: 240px;
+  height: 100%;
+  font-size: 12px;
+  position: relative;
+  .user {
+    display: flex;
+    width: 193px;
+    height: 40px;
+    margin: 24px 24px 0 24px;
+    &__avatar {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+    }
+    &__info {
+      line-height: 24px;
+      margin-left: 10px;
+      &-name {
+        color: #303842;
+        font-weight: 600;
+        height: 16px;
+      }
+      &-position {
+        font-weight: 400;
+        height: 16px;
+        color: #6d7895;
+      }
+    }
+  }
+  .menu {
+    padding: 0;
+    margin: 54px 8px 124px 24px;
+    &__item {
+      display: flex;
+      height: 48px;
+      align-items: center;
+      color: #6d7895;
+      font-weight: 500;
+      line-height: 24px;
+      &-icon {
+        margin-right: 12px;
+        width: 20px;
+        height: 20px;
+      }
+    }
+    .active {
+      color: #6d6be5;
+    }
+  }
+  &__ArrowBottom {
+    position: absolute;
+    bottom: 16.5px;
+    right: 16.5px;
+    margin-right: 9px;
+  }
+}

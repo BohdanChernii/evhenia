@@ -1,0 +1,42 @@
+.main__greetings {
+  width: 816px;
+  height: 192px;
+  background: #8d8bed;
+  color: #fff;
+  font-weight: 500;
+  padding: 24px 0 16px 24px;
+  border-radius: 8px;
+  margin: 24px 0;
+  position: relative;
+  &-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  &-text {
+    font-size: 14px;
+    width: 512px;
+    line-height: 180%;
+    margin: 16px 0;
+  }
+  &-close {
+    margin-top: 2px;
+    display: flex;
+    .close {
+      align-items: center;
+      &__icon {
+        margin-right: 6px;
+      }
+      &__text {
+        color: #fff;
+        font-size: 12px;
+        line-height: 21.6px;
+      }
+    }
+  }
+  .woman {
+    position: absolute;
+    bottom: 0;
+    right: 59px;
+  }
+}

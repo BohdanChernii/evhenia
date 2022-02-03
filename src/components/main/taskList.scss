@@ -1,0 +1,68 @@
+.taskList {
+  margin-top: 24px;
+  list-style: none;
+  padding: 0;
+  .candidate {
+    width: 336px;
+    display: flex;
+    &__info {
+      width: 288px;
+    }
+    &__messages {
+      width: 40px;
+      height: 56px;
+      margin-left: 8px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      border-radius: 4px;
+      background: #8d8bed;
+      color: #ffffff;
+    }
+  }
+  &__item {
+    width: 336px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    padding-right: 16px;
+    &-date {
+      height: 40px;
+      width: 40px;
+      margin: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #6d7895;
+      background: #edf2ff;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 12px;
+      .month {
+        font-size: 9px;
+        font-weight: 500;
+      }
+    }
+    &-info {
+      font-size: 12px;
+      margin: 8px 0;
+      .toDO {
+        font-weight: 600;
+        color: #303842;
+      }
+      .whichPosition {
+        height: 24px;
+        line-height: 24px;
+      }
+    }
+    .star {
+      margin-left: auto;
+    }
+  }
+}
