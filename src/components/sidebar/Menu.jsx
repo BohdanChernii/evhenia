@@ -3,7 +3,7 @@ import home from '../.././images/Home.svg';
 import calendar from '../.././images/calendar.svg';
 import work from '../.././images/work.svg';
 import employees from '../.././images/employees.svg';
-import heart from '../.././images/heart.svg';
+import heart from '../.././images/Heart.svg';
 import twoFriends from '../.././images/twoFriends.svg';
 import rating from '../.././images/rating.svg';
 import game from '../.././images/game.svg';
