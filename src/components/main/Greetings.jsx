@@ -1,7 +1,7 @@
 import React from 'react';
 import './greetings.scss';
 import close from '../.././images/close.svg';
-import illistration from '../.././images/illistration.svg';
+import Illistration from '../.././images/Illistration.svg';
 const Greetings = () => {
   return (
     <section className="main__greetings">
@@ -17,7 +17,7 @@ const Greetings = () => {
           Закрыть
         </a>
       </div>
-      <img src={illistration} alt="" className="woman" />
+      <img src={Illistration} alt="" className="woman" />
     </section>
   );
 };
